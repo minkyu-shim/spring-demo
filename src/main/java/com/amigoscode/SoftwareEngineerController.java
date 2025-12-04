@@ -9,6 +9,11 @@ import java.util.List;
 @RequestMapping("api/v1/software-engineers")
 public class SoftwareEngineerController {
 
+    // @PostMapping
+    // @GetMapping
+    // @UpdateMapping
+    // @DeleteMapping
+
     @GetMapping
     public List<SoftwareEngineer> getEngineers() {
         return List.of(
