@@ -1,7 +1,7 @@
 services:
   db:
     container_name: postgres-spring-boot
-    image: postgres:latest
+    image: postgres:latest # latest version tag
     environment:
       POSTGRES_USER: amigoscode
       POSTGRES_PASSWORD: password
